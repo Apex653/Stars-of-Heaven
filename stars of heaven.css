@@ -4,13 +4,13 @@ header {
 text-align: center;
 font-family: 'Times New Roman', Times, serif;
 font-size: x-large;
-background-color: gray;
+background-color: rgba(128, 128, 128, 0.532);
 width: auto;
 
 }
 
 body {
-background-color: rgb(143, 136, 136);
+background-color: rgb(138, 200, 203);
 }
 
 .container {
@@ -83,7 +83,7 @@ justify-self: center;
 }
 
 .img {
-width: 275px;
+width: 450px;
 height: 300px;
 grid-column: 3;
 grid-row: 2;
@@ -99,9 +99,8 @@ grid-row: 2;
 .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr;
-    gap: 10px;
-    padding: 10px;
+    grid-template-rows: 50px 100px 200px 200px 1fr;
+    
 }
 
 .Medlemmar {
@@ -140,3 +139,116 @@ grid-row: 2;
     grid-column: 4;
     text-align: center;
 }
+
+
+.tillbaka {
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tillbaka a {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+
+
+.img2 {
+    width: 200px;
+    height: auto;
+    grid-column: 1;
+    grid-row: 3;
+    align-self: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.img3 {
+    width: 200px;
+    height: auto;
+    grid-column: 2;
+    grid-row: 3;
+    align-self: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.img4 {
+    width: 200px;
+    height: 280px;
+    grid-column: 3;
+    grid-row: 3;
+    align-self: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.img5 {
+    width: 200px;
+    height: 280px;
+    grid-column: 4;
+    grid-row: 3;
+    align-self: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 100px 200px 200px 1fr;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+    .a1 {
+        grid-column: 2;
+        grid-row: 2;
+        height: 300px;
+        width: 275px;
+        justify-self: center;
+     
+    }
+
+    .a2 {
+        grid-row: 2;
+        grid-column: 3;
+        height: 300px;
+        width: 275px;
+        justify-self: center;
+    }
+
+    .cover
+    {
+        width: auto;
+        height: 400px;
+        grid-column: 4;
+        grid-row: 2;
+
+    }
+.nav1 {
+    grid-column: 2;
+}
+
+    .nav1 ul li {
+        
+        text-align: center;
+        margin-bottom: 20px;
+        
+       
+    } 
+
+    .nav1 ul li:nth-child(odd) {
+        font-weight: bold;
+    }
+
