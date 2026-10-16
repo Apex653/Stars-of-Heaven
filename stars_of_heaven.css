@@ -250,5 +250,10 @@ grid-row: 2;
 
     .nav1 ul li:nth-child(odd) {
         font-weight: bold;
+        
+    }
+
+    .nav1 ul {
+        list-style: none;
     }
 
